@@ -1,0 +1,145 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #FAF7FD;
+    font-family: 'Poppins';
+    
+  }
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo{
+    color: #cd6251;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li{
+    list-style: none;
+    margin-left: 5vw;
+  }
+  header ul li a {
+    text-decoration: none;
+    padding: 6px 25px;
+    color: #cd6251;
+  }
+  header ul li a:hover,
+  header ul li a.active{
+    background-color: #cd6251;
+    color: white;
+    border-radius: 20px;
+  }
+  /* Fotot de Perfil: */
+
+.perfil{
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);   
+}
+.circle{
+    border: 2px solid #cd6251 ;
+    border-radius: 50%;
+    width: 50%;
+    max-width: 200px;
+    height: 50%;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.instagram{
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3px;
+    color: #cd6251;
+
+    font-size: small;
+}
+.container1{
+    margin-top: 10vh;
+}
+
+p.link{
+    padding: 3vw;
+    margin: 2vh auto;
+    text-align: center; 
+}
+.links{
+    text-decoration: none;
+    padding: 2% 20%;   
+    border: 1px solid #cd6251;
+    border-radius: 6px;
+    color: #cd6251;
+    font-weight: bold;
+    
+}
+.links:hover{
+
+    background: linear-gradient(#d3736493, #eaccc793);
+}
+
+.caixa{
+    
+    margin-top: 10vh;
+    
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:linear-gradient(0deg,#d3736493, #faf7fd7c);
+    text-align: center;
+  }
+  
+
+.icon{
+    margin: 3%;    
+}
+.redes img{
+    width: 5%;
+    min-width: 15px;
+    max-width: 25px;
+}
+.redes img:hover{
+    width: 10%;
+    max-width: 30px;
+     }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #cd6251aa;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffffc3;
+    border: 3px solid #cd6251aa;
+    border-radius: 20vw;
+   
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ffffff;
+}

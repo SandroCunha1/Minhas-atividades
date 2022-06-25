@@ -1,0 +1,29 @@
+
+p{
+    padding: 5px;
+    text-align: center;
+    border: #ccc;
+    font-size: large;
+    
+}
+#outResposta{
+    color: rgba(206, 40, 18, 0.671);
+}
+h1{
+    text-align: center;
+    
+}
+input[type="button"]{
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    height: 60px;
+}
+input[type="text"]{
+    border-radius: 10px;
+}
+.caixa{
+    border: 2px solid brown;
+}

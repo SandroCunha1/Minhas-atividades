@@ -1,0 +1,84 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #FAF7FD;
+    
+  }
+  /* Fotot de Perfil: */
+.perfil{
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);   
+}
+.circle{
+    border: 2px solid #cd6251 ;
+    border-radius: 50%;
+    width: 50%;
+    max-width: 200px;
+    height: 50%;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.instagram{
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3px;
+    color: #cd6251;
+    font-family: Poppins;
+    font-size: small;
+}
+.container1{
+    margin-top: 2vw;
+}
+
+p.link{
+    padding: 3vw;
+    margin: auto;
+    text-align: center; 
+}
+.links{
+    text-decoration: none;
+    padding: 2% 20%;   
+    border: 1px solid #cd6251;
+    border-radius: 6px;
+    color: #cd6251;
+    font-weight: bold;
+    font-family: Poppins;
+    
+}
+.links:hover{
+
+    background: linear-gradient(#d3736493, #eaccc793);
+}
+
+.caixa{
+    
+    margin-top:5%;
+}
+.redes{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6%;
+}
+.icon{
+    margin: 1%;    
+}
+.redes img{
+    width: 5%;
+    min-width: 15px;
+    max-width: 25px;
+}
+.redes img:hover{
+    width: 10%;
+    max-width: 30px;
+     }
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dobro</title>
+</head>
+<body>
+   
+<div class="caixa">
+    <h1>Programa Calcula o dobro</h1>
+    <p>Número:</p>
+
+    <p><input type="text" id="inNumero"></p>
+
+    <p><input type="button" value="Calcular" id="btCalcular" onclick="calcularDobro()"></p>
+
+    <p id="outResposta"></p>
+
+     <script>
+        function calcularDobro(){
+
+            var numero= parseFloat(document.getElementById("inNumero").value);
+
+            var resposta=document.getElementById("outResposta");
+
+            var dobro = numero * 2;
+
+            resposta.textContent="O dobro do número "+ numero + " é "+dobro;
+        }
+/*   Método 2:
+        var btCalcular=document.getElementById("btCalcular");
+        btCalcular.addEventListener("click", calcularDobro); */
+    </script>
+    </div>
+    
+</body>
+</html>
